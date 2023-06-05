@@ -1,0 +1,66 @@
+.principal{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    height: 250px;
+    line-height: 2;
+    margin-bottom: 10%;
+}
+
+.principal input{
+    background: linear-gradient(0deg, rgba(242, 252, 188, 0.651) 0%, rgba(194, 226, 206, 0.711) 100%);
+    border: none;
+    width: 100%;
+}
+
+.principal button{
+    background: linear-gradient(0deg, rgba(242, 252, 188, 0.651) 0%, rgba(194, 226, 206, 0.711) 100%);
+    width: 20%;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+@media (max-width: 850px) {
+    .principal button{
+        width: 25%;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+} 
+
+@media (max-width: 680px) { 
+    .principal button{
+        width: 35%;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+
+    .principal{
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        height: 250px;
+        line-height: 2;
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 510px) { 
+    .principal button{
+        width: 45%;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+
+    .principal{
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        height: 250px;
+        line-height: 2;
+        margin-bottom: 10%;
+    }
+}

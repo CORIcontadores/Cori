@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.encabezado{
+    background-color: #fff;
+    border-bottom: 4px solid #d6e6c3;
+    width: 90%;
+    margin: auto;
+}
+
+.encabezado img.logo{
+    width: 10%;
+}
+
+.lateral{
+    float: right;
+    width: 15%;
+    display: flex;
+    margin-top: .5%;
+}
+
+.text{
+    margin-top: 6%;
+}
+
+.icono{
+    width: 25%;
+    float: right;
+}
+ul{
+    list-style: none;
+}
+
+.li1{
+    
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#menuicono {
+    display: none;
+    width: 95%;
+    height: 38px;
+    padding: 12px 2% 0px 3%;
+    background-color: #0d9c0d;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.banner{
+    width: 90%;
+    background-color: #0d9c0d;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.banner h1{
+    color: #fff;
+    margin-left: 42%;
+}
+
+section{
+    margin-top: 5%;
+}
+
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    overflow: hidden;
+    width: 90%;
+}
+
+.card{
+    display: flex;
+    width: 30%;
+    height: 100px;
+    display: block;
+    margin-bottom: 50px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #0d9c0d;
+    color: #fff;
+    font-size: 150%;
+}
+
+.card img{
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+    display: flex;
+    width: 15%;
+}
+
+.card_title{
+    margin-top: 10%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+footer {
+    background: linear-gradient(to top, #cdcfb739 0%, #9bf79960 100%);
+    padding-bottom: 0.1px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  
+  }
+  
+  .contact-us {
+    width: 40%;
+    color: #452d11;
+  }
+  
+  .brand {
+    font-weight: 500;
+    font-size: 40px;
+  }
+  
+  .brand+p {
+    font-weight: 500;
+  }
+  
+  .social-media {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #3e2f08;
+    border-radius: 50%;
+    text-align: center;
+    color: #5b3d0f;
+  
+  }
+  
+  .social-media-icon:hover {
+    background-color: #3e2f08;
+    color: #a3897d;
+  }
+  
+  .social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+  }
+  
+  .line {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #1d1b1a;
+    margin-bottom: 60px;
+  }
+
+@media screen and (max-width:800px) {
+    .gallery .card{
+        width: 45%;
+    }
+
+    .encabezado img.logo{
+        width: 15%;
+    }
+
+    .lateral{
+        float: right;
+        width: 25%;
+        display: flex;
+        margin-top: .5%;
+    }
+
+}
+
+@media screen and (max-width:670px) {
+    .gallery .card{
+        width: 45%;
+    }
+
+    .encabezado img.logo{
+        width: 15%;
+    }
+
+    .lateral{
+        float: right;
+        width: 30%;
+        display: flex;
+        margin-top: .5%;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .icono{
+        margin-right: 50%;
+        
+    }
+    
+}
+
+
+@media screen and (max-width:500px){
+    
+    .gallery .card{
+        width: 95%;
+    }
+
+    .encabezado{
+        background-color: #fff;
+        border-bottom: 4px solid #0d9c0d;
+        width: 85%;
+        height: 250px;
+        margin: auto;
+    }
+
+    .encabezado img.logo{
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+    .lateral{
+        float: right;
+        width: 100%;
+        display: block;
+        
+    }
+    .text{
+        text-align: center;
+    }
+
+    .icono{
+        margin-right: 37%;
+    }
+
+    .banner{
+        width: 85%;
+        background-color: #0d9c0d;
+        margin: auto;
+        margin-top: 2%;
+    }
+    
+    .banner h1{
+        color: #fff;
+        margin-left: 27%;
+    }
+}
+.logo-header{
+    width: auto;
+    height: 5em;
+  }

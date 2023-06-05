@@ -1,0 +1,299 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bann{
+  text-align: center;
+  justify-content: center;
+}
+
+.contenido{
+  display: flex;
+}
+
+.bandeja{
+  background-color: #d6e6c3;
+  width: 40%;
+  height: 509px;
+  display: block;
+  border-bottom: solid #000;
+}
+
+.chat{
+  width: 100%;
+  height: 67px;
+  background-color: rgba(0, 255, 255, 0);
+  overflow: hidden;
+  margin-top: 1.5%;
+  
+}
+
+.box-foto{
+  width: 30%;
+  background-color: rgba(0, 0, 255, 0);
+}
+
+.fchat{
+  width: 50%;
+  float: left;
+  margin-left: 2%;
+}
+
+.box-nomUser{
+  width: 100%;
+  height: 20px;
+  background-color: rgba(240, 248, 255, 0);
+  margin-top: 10px
+}
+
+.conversacion{
+  background-color: rgba(116, 116, 116, 0);
+  width: 100%;
+  height: 509px;
+  display: block;
+  border-bottom: solid #000;
+  border-left: solid #000;
+}
+
+.nomUser{
+  font-size:110%;
+  margin-left: 2%;
+  margin-top: 1%;
+  font-weight: bold;
+}
+
+.box-mensaje{
+  width: 90%;
+  background-color: rgba(137, 43, 226, 0);
+  margin-top: 1px;
+}
+
+.box-mensaje p{
+  margin-top: 2.8%;
+}
+
+.header-chat{
+  width: 100%;
+  height: 50px;
+  background-color: #d6e6c3;
+  display: flex;
+  border-bottom: solid #000;
+}
+
+.header-foto{
+  background-color: rgba(137, 43, 226, 0);
+  width: 8%;
+}
+
+.header-foto img{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.nom-chat{
+  width: 91%;
+  background-color: rgba(240, 255, 255, 0);
+}
+
+.nom-chat p{
+  margin-top: 2%;
+  font-size: 150%;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.contenido-chat{
+  background-color: rgba(0, 255, 255, 0);
+  width: 100%;
+  height: 382px;
+}
+
+.inp-mensaje{
+  width: 100%;
+  background-color: #d6e6c3;
+  height: 65px;
+  margin-top: 1%;
+}
+
+
+
+.inp-mensaje input{
+  width: 80%;
+  height: 35px;
+  border-radius: 100px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.inp-mensaje button{
+  width: 4%;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+
+
+footer {
+  background: linear-gradient(to top, #cdcfb739 0%, #9bf79960 100%);
+  padding-bottom: 0.1px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+}
+
+.contact-us {
+  width: 40%;
+  color: #452d11;
+}
+
+.brand {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.brand+p {
+  font-weight: 500;
+}
+
+.social-media {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media-icon {
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #3e2f08;
+  border-radius: 50%;
+  text-align: center;
+  color: #5b3d0f;
+
+}
+
+.social-media-icon:hover {
+  background-color: #3e2f08;
+  color: #a3897d;
+}
+
+.social-media-icon i {
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.line {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 2px;
+  background: #1d1b1a;
+  margin-bottom: 60px;
+}
+
+
+@media screen and (max-width:800px) {
+  .inp-mensaje button{
+    width: 8%;
+    margin-top: 10px;
+    border-radius: 100px;
+  }
+
+  .header-foto img{
+    width: 90%;
+    margin-left: 20%;
+  }
+  
+}
+
+@media screen and (max-width:670px) {
+  .inp-mensaje {
+    height: 70px;
+  }
+
+  .header-foto img{
+    width: 100%;
+    margin-left: 20%;
+  }
+  
+}
+
+@media screen and (max-width:593px) {
+  .nomUser{
+    font-size:100%;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-weight: bold;
+  }
+
+  .box-mensaje p{
+    width: 80%;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+
+  .header-foto img{
+    width: 120%;
+    margin-left: 20%;
+  }
+  
+}
+
+@media screen and (max-width:500px){
+  .box-nomUser p{
+    width: 70%;
+    text-align: center;
+  }
+
+  .box-foto{
+    width: 35%;
+    
+  }
+
+  .box-nomUser {
+    font-size: 80%;
+    width: 120%;
+  }
+  
+  .box-mensaje{
+    font-size: 0%;
+    width: 0%;
+  }
+
+  .fchat{
+    width: 80%;
+  }
+
+  .header-foto{
+    width: 20%;
+  }
+
+  .header-foto img{
+    width: 70%;
+    margin-left: 20%;
+    padding-top: 5%;
+  }
+  
+  .inp-mensaje input{
+    width: 75%;
+    height: 35px;
+    border-radius: 100px;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  
+  .inp-mensaje button{
+    width: 15%;
+    margin-top: 10px;
+    border-radius: 100px;
+  }
+}

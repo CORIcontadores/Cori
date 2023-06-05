@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.encabezado{
+    background-color: #000000;
+    border-bottom: 4px solid rgb(103, 124, 78) 0%;
+    width: 70%;
+    margin: auto;
+}
+
+.lateral{
+    float: right;
+    width: 15%;
+    display: flex;
+    margin-top: .5%;
+}
+
+.text{
+    margin-top: 6%;
+}
+
+ul{
+    list-style: none;
+}
+
+.li1{
+    
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#menuicono {
+    display: none;
+    width: 95%;
+    height: 38px;
+    padding: 12px 2% 0px 3%;
+    background-color: rgb(103, 124, 78) 0%;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.banner{
+    width: 90%;
+    background-color: rgb(103, 124, 78) 0%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.banner h1{
+    color: #000000;
+    margin-left: 42%;
+}
+
+section{
+    margin-top: 5%;
+}
+
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    overflow: hidden;
+    width: 70%;
+}
+
+.card{
+    display: flex;
+    width: 30%;
+    height: 100px;
+    display: block;
+    margin-bottom: 50px;
+    box-shadow: 0 0 6px rgba(10, 67, 17, 0.868);
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(103, 124, 78) 0%;
+    color: #000000;
+    font-size: 150%;
+    font-family: sans-serif;
+}
+
+.card img{
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+    display: flex;
+    width: 15%;
+}
+
+.card_title{
+    margin-top: 10%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+
+@media screen and (max-width:800px) {
+    .gallery .card{
+        width: 45%;
+    }
+
+    .encabezado img.logo{
+        width: 15%;
+    }
+
+    .lateral{
+        float: right;
+        width: 25%;
+        display: flex;
+        margin-top: .5%;
+    }
+
+}
+
+@media screen and (max-width:670px) {
+    .gallery .card{
+        width: 45%;
+    }
+
+    .encabezado img.logo{
+        width: 15%;
+    }
+
+    .lateral{
+        float: right;
+        width: 30%;
+        display: flex;
+        margin-top: .5%;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .icono{
+        margin-right: 50%;
+        
+    }
+    
+
+}
+
+@media screen and (max-width:500px){
+    
+    .gallery .card{
+        width: 95%;
+    }
+
+    .encabezado{
+        background-color: #fff;
+        border-bottom: 4px solid #0d9c0d;
+        width: 85%;
+        height: 250px;
+        margin: auto;
+    }
+
+    .encabezado img.logo{
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+    .lateral{
+        float: right;
+        width: 100%;
+        display: block;
+        
+    }
+    .text{
+        text-align: center;
+    }
+
+    .icono{
+        margin-right: 37%;
+    }
+
+    .banner{
+        width: 85%;
+        background-color: #0d9c0d;
+        margin: auto;
+        margin-top: 2%;
+    }
+    
+    .banner h1{
+        color: #fff;
+        margin-left: 27%;
+    }
+}
+.logo-header{
+    width: auto;
+    height: 5em;
+  }

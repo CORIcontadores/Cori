@@ -1,0 +1,11 @@
+#miBoton {
+    background-color: blue;
+  }
+  
+  #miBoton:hover, #miBoton.active {
+    background-color: red;
+  }
+  .logo-header{
+    width: auto;
+    height: 5em;
+  }
