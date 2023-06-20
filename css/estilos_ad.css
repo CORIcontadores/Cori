@@ -20,7 +20,7 @@ header {
   position:initial;
   text-align: center;
   height: 100vh;
-  background-image: linear-gradient(to top, #cdcfb739 0%, #9bf79960 100%), url(../img/bannerContador.jpeg);
+  background-image: linear-gradient(to top, rgba(10, 79, 38, 0.636) 0%, rgba(93, 99, 93, 0.726) 100%), url(../img/bannerContador.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

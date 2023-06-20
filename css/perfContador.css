@@ -8,13 +8,14 @@
 .detalle{
     padding-top: 3%;
     width: 95%;
-    height: 90%;
+    height: 150%;
     margin: 3% 2%;
     text-align: center;
     background: linear-gradient(0deg, rgba(242, 252, 188, 0.651) 0%, rgba(194, 226, 206, 0.711) 100%);
     border-radius: 8px;
     
 }
+
 
 .detalleFoto{
     width: 20%;
@@ -24,16 +25,10 @@
     
 }
 
-.datosPerf{
-    width: 30%;
-    height: 120px;
-    margin: auto;
-}
-
-.detalle p{
-    margin-top: 0px;
-    text-align: center;
-    
+.contenedor-Info{
+  width: 95%;
+  height: 27%;
+  margin: 3% 2%;
 }
 
 #textocent{
@@ -46,7 +41,7 @@
 #texto{
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-  
+    size: 0.3em;
 }
 
 

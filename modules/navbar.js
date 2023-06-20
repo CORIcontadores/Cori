@@ -1,5 +1,6 @@
   if (document.getElementById('menus1')!=null) {
     document.getElementById('menus1').innerHTML=/*html*/`
+   
     <div class="container-fluid">
       <a href=""><img class="logo-header" src="img/Logo de Finanzas Asesoría Financiera Moderno Degradado Verde.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +34,8 @@
           </li>
           </ul>
         </div>
-      </div>`;
+      </div>
+      `;
   }
   if (document.getElementById('menus2')!=null) {
     document.getElementById('menus2').innerHTML=/*html*/`
